@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./bg-intro-desktop.png);
+    background-image: url(./favicon-32x32.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+main{
+    width: 50%;
+    margin: auto;
+    margin-left: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}.group-1{
+    color: whitesmoke;
+    width: 150%;
+    font-weight: 800px;
+    font: 300px;
+}
+input[type="text"]{
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 15px;
+    display: inline-block;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+h1{
+    font-weight: 1000px;
+    font-size: 40px;
+    padding-bottom: 20px;
+ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="submit"]{
+    width: 180%;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(248, 32%, 49%);
+    color: whitesmoke;
+    padding: 14px 20px;
+    padding-bottom: 14px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input[type="password"]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+button{
+    width: 94%;
+    background-color:  hsl(154, 59%, 51%);
+    color: whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text-2{
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    
+    
+}
+a{
+    color:  red;
+    text-decoration: none;
+
+}.try{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen  {
+    .form{
+        background-color: white;
+        width: 180%;
+        border-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+}
